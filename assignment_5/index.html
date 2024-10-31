@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="name">JOHN DOE</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project Details</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <img src="img/image.png" alt="Profile Picture">
+        <h2>About Me</h2>
+        <p>Final Year B-Tech Student AT VIIT PUNE
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <img src="img/image2.png" alt="Skill 1">
+            <p>
+            <h1>Full Stack Development</h1>
+            </p>
+        </div>
+        <div class="skill">
+            <img src="img/image1.png" alt="Skill 2">
+            <p>
+            <h1>data structures</h1>
+            </p>
+        </div>
+        <div class="skill">
+            <img src="img/image3.png" alt="Skill 3">
+            <p>Docker</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Portfolio Website 1</h3>
+            <p>This project involved creating a personal portfolio website to showcase my skills, projects, and
+                experience. The website was built using HTML, CSS, and JavaScript, with a focus on responsive design to
+                ensure it looks great on all devices. Features include a homepage with an introduction, an "About Me"
+                section, a portfolio section showcasing my projects, and a contact form.</p>
+        </div>
+        <div class="project">
+            <h3>E-commerce Product Page</h3>
+            <p>In this project, I developed a dynamic product page for an e-commerce website. The page displays product
+                details such as images, descriptions, pricing, and user reviews. I implemented an interactive image
+                gallery and an "Add to Cart" functionality. The project aimed to enhance the user shopping experience by
+                providing a visually appealing and user-friendly interface.</p>
+        </div>
+        <div class="project">
+            <h3>Blog Website</h3>
+            <p>This project involved creating a fully functional blog website where users can read articles, leave
+                comments, and subscribe to newsletters. The website includes a homepage with the latest posts,
+                individual post pages, and a comment section for user interaction. I focused on creating a clean and
+                modern design, with easy navigation and a responsive layout.</p>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <ul id="recommendation-list">
+
+        </ul>
+        <form id="recommendation-form">
+            <input type="text" id="new-recommendation" placeholder="Enter new recommendation">
+            <button type="submit">Add Recommendation</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
